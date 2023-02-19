@@ -1,0 +1,29 @@
+{
+  "name": "art_gallery",
+  "version": "1.0.0",
+  "description": "Website for the fictional art gallery Blanco Gris",
+  "main": "index.html",
+  "scripts": {
+    "lite": "lite-server",
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jnaranj21/art_gallery.git"
+  },
+  "author": "Juan Naranjo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jnaranj21/art_gallery/issues"
+  },
+  "homepage": "https://github.com/jnaranj21/art_gallery#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  }
+}

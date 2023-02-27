@@ -39,6 +39,10 @@ h1{
 
 }
 
+#borderContainer{
+    border-bottom: solid rgb(222, 210, 210) 1px;
+}
+
 #mainButton {
     color: black;
     font-size: 3.5em;
@@ -66,4 +70,8 @@ h1{
 
 #fadeButton{
     height: 70vh;
+}
+
+.breadcrumb{
+    list-style: none;
 }

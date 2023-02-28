@@ -22,18 +22,14 @@
 <body>
 
     <figure class="bg" id="bg">
-        <div class="container d-flex align-items-center justify-content-center logoBorder">
-            <div class="row row-content">
-                <div class="col" id="motto">
-                    <a class="btn text-center" id="mainButton" type="button" onclick="showNext()" data-toggle="collapse" data-target="#menuBar" aria-expanded="false" aria-controls="menuBar">EB</br>OG</a>
-                    <span class="special">where simplicity is honored</span>
+        <div class="container-fluid container-customized">
+            <div class="row align-items-center">
+                <div class="col-md-7 col-lg-5 pl-5">
+                    <a class="btn text-center" id="brandLogo" type="button">EB</br>OG</a>
+                    <span class="slogan d-none d-md-inline">where simplicity is honored</span>
                 </div>
-            </div>
-        </div>
-        <div class="container-fluid d-flex align-items-center justify-content-center logoBorder" id="fadeButton">
-            <div class="row row-content">
-                <div class="col">
-                    <a class="btn collapse fade text-right" id="menuBar" type="button" href="currentexhib.html">
+                <div class="col-md-5 pl-5 pl-m-auto">
+                    <a class="btn text-left" type="button" href="currentexhib.html">
                         <h1>DE LA VEGA</h1>
                         <h1>Margaret</h1>
                         <p>February 21 | March 14, 2023</p>
@@ -49,15 +45,7 @@
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="js/scripts.js"></script>
     <script>
-        function showNext() {
-            document.getElementById("motto").style.display="none";
-        }
-        function showButton() {
-            document.getElementById("motto").classList.remove("d-none");
-        }
-        function hideButton() {
-            document.getElementById("motto").classList.add("d-none");
-        }
+
     </script>
 
 </body>

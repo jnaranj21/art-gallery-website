@@ -7,8 +7,19 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
-.navbar{
+.container-menubar{
     height: 17vh;
+    border-bottom: solid black 1px;
+}
+
+.as{
+    /*border-bottom: solid black 1px;*/
+    border: dashed red 1px;
+}
+
+.langMenu{
+    display: inline-flex;
+    list-style: none;
 }
 
 .nav-item .dropdown-item{
@@ -34,7 +45,8 @@ h1{
     padding-top: 35vh;
 }
 
-.brandBorder {
+.brandName {
+    color: black;
     font-size: 1.3em;
     letter-spacing: 0.05em;
 
@@ -44,7 +56,7 @@ h1{
     border-bottom: solid rgb(222, 210, 210) 1px;
 }
 
-#brandLogo {
+#brandLogo{
     color: black;
     font-size: 3.5em;
     font-weight: lighter;

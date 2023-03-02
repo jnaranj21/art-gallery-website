@@ -7,14 +7,18 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
-.container-menubar{
+.row-menubar{
     height: 17vh;
-    border-bottom: solid black 1px;
+    background-image: linear-gradient(to right, white, #f5f5f5, white);
+}
+
+.row-exhibar{
+    height: 26vh;
 }
 
 .as{
-    /*border-bottom: solid black 1px;*/
-    border: dashed red 1px;
+    /*border-bottom: solid black 1px;
+    border: dashed red 1px;*/
 }
 
 .langMenu{
@@ -81,4 +85,10 @@ h1{
 
 .breadcrumb{
     list-style: none;
+}
+
+.socialFooter{
+    height: 25vh;
+    background-image: linear-gradient(to right, white, #f5f5f5, white);
+    margin-top: 2em;
 }

@@ -20,12 +20,12 @@
 </head>
 
 <body>
-    <div class="container container-menubar">
-        <div class="row align-items-center pt-5">
-            <div class="d-lg-none col col-md-8">
+    <div class="container">
+        <div class="row row-menubar align-items-center as">
+            <div class="d-lg-none col col-md-8 as">
                 <a class="navbar-brand" type="button" href="index.html"><h1 class="brandName">GALLERY ENBLANCO OGRIS</h1></a>
             </div>
-            <div class="col-lg-8 d-none d-lg-inline as">
+            <div class="col-lg-8 d-none d-lg-inline pt-2 as">
                 <a class="btn" id="brandLogo" type="button" href="index.html">EB</br>OG</a>
                 <a class="navbar-brand" type="button" href="index.html"><h1 class="brandName">GALLERY ENBLANCO OGRIS</h1></a>
             </div>
@@ -85,15 +85,32 @@
     
     <div class="container"> 
         <div class="row">
-            <div class="col col-sm-7 col-md-6 col-lg-4 pt-2 pb-2 pl-4 as">
+            <div class="col pt-2 pb-2 d-none d-md-inline as">
                 <a class="btn" href="index.html">Home</a>
                 <a class="btn">Exhibitions</a>
                 <a class="btn active">Featured</a>
             </div>
         </div>
+    </div>
 
-        <div class="row mt-1">
-            <div class="col">
+    <div class="container-fluid sticky-top">
+        <div class="row row-exhibar align-items-end justify-content-between as">
+            <div class="col-2 pl-4 as">
+                <a class="btn text-left" type="button" href="currentexhib.html">
+                    <h1>DE LA VEGA</h1>
+                    <h1>Margaret</h1>
+                    <p>Mar 21 | Apr 14, 2023</p>
+                </a>
+            </div>
+            <div class="col-2 align-self-center as">
+                <button type="button" href="#" class="btn btn-sm btn-light"><h1>request info</h1></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-8 mx-auto">
                 <div class="carousel slide" id="mainCarousel" data-ride="carousel">
                     <ol class="carousel-indicators">
                             <li data-target="mainCarousel" data-slide="0" class="active"></li>
@@ -133,5 +150,12 @@
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
+    <footer>
+        <div class="container socialFooter">
+            <div class="row">
+                <div class="col"></div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>

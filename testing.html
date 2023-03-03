@@ -20,32 +20,16 @@
 </head>
 
 <body>
-    <div class="container">
-        <div class="row row-menubar align-items-center as">
-            <div class="col-6 col-md-2 col-lg-1 order-2 order-lg-1 as">
-                <nav class="navbar navbar-expand navbar-light">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">
-                                EN
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">
-                                ES
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
+    <div class="container as">
+        <div class="row row-menubar align-items-center justify-content-xl-between as">
             <div class="d-lg-none col col-md-8 as">
                 <a class="navbar-brand" type="button" href="index.html"><h1 class="brandName">GALLERY ENBLANCO OGRIS</h1></a>
             </div>
-            <div class="col-lg-8 d-none d-lg-inline pt-2 order-1 order-lg-2 as">
+            <div class="col-lg-8 d-none d-lg-inline pt-2 as">
                 <a class="btn" id="brandLogo" type="button" href="index.html">EB</br>OG</a>
                 <a class="navbar-brand" type="button" href="index.html"><h1 class="brandName">GALLERY ENBLANCO OGRIS</h1></a>
             </div>
-            <div class="col-6 col-md-2 col-lg-3 order-3 as">
+            <div class="col-6 col-md-2 col-lg-3 order-lg-2 order-3 as" id="hiddenMenu">
                 <nav class="navbar navbar-expand-lg navbar-light">
                     <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -80,29 +64,45 @@
                     </div>
                 </nav>
             </div>
+            <div class="col-6 col-md-2 col-lg-1 p-0 order-2 order-lg-3 as">
+                <nav class="navbar navbar-expand pl-0 navbar-light">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link pl-0" href="#">
+                                EN
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pl-0" href="#">
+                                ES
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
         </div>
     </div>
     
-    <div class="container-fluid"> 
-        <div class="row">
-            <div class="col-10 mx-auto pt-2 pb-2">
+    <div class="container as"> 
+        <div class="row as">
+            <div class="col d-none d-md-inline as">
                 <a class="btn" href="index.html">Home</a>
                 <a class="btn">Exhibitions</a>
                 <a class="btn active">Featured</a>
             </div>
         </div>
+    </div>
 
-        <div class="row row-exhibar align-items-end">
-            <div class="col-10 mx-auto">
+    <div class="container-fluid sticky-top as">
+        <div class="row row-exhibar align-items-end justify-content-between as">
+            <div class="col-2 pl-4 as">
                 <a class="btn text-left" type="button" href="currentexhib.html">
-                    <h1><em>De la Vega, Margaret</em></h1>
-                    <p>February 21 | March 14, 2023</p>
+                    <h1>DE LA VEGA</h1>
+                    <h1>Margarita</h1>
+                    <p>Mar 21 | Apr 14, 2023</p>
                 </a>
             </div>
-        </div>
-
-        <div class="row mt-1">
-            <div class="col-10 mx-auto">
+            <div class="col-8">
                 <div class="carousel slide" id="mainCarousel" data-ride="carousel">
                     <ol class="carousel-indicators">
                             <li data-target="mainCarousel" data-slide="0" class="active"></li>
@@ -133,17 +133,75 @@
                         <span class="sr-only">Next</span>
                     </a>
                 </div>
+                <div class="row row-artistBio justify-content-center as">
+                    <div class="col-4 as">
+                        <span>
+                            <h1>Pure yet embellished, Margarita's work is captivating</h1>
+                            <h2>The prodigious child first gained world recognition when her work was displayed at The 59th International Art Exhibition in 2017.</h2>
+                            <h2>Margarita was soon awarded an excellence schoolarship to attend the prestigious Academy of Fine Arts in Bacerlona, Spain.</h2>
+                            <h2>Her latest collection inspired by the wild of her home country Venezuela, will be exhibited at GECO in Spring.</h2>
+                        </span>
+                    </div>
+                    <div class="col-4 artistImage as">
+                    </div>
+                </div>
+                <div class="row row-artistSocial mt-5 mb-5 text-center align-items-center as">
+                    <div class="col as"><h1>Margarita's social links</h1></div>
+                    <div class="col as">
+                        <a class="btn" href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
+                        <a class="btn" href="http://facebook.com/"><i class="fa fa-facebook"></i></a>
+                        <a class="btn" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
+                        <a class="btn" href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="row justify-content-center as">
+                    <div class="col-6 as">
+                        <img src="img/ken-cheung-Z2M2KkdNLWQ-unsplash.jpg" height="300" width="450" alt="">
+                        <span class="description mt-5"><p>Margarita de la Vega</br><em>Bosque de Sangre, 2020</em></br><em>210 x 160 cm</em></p></span>
+                    </div>
+                    <div class="col-6 as">
+                        <img src="img/nakul-patil-FlQj99LE3ao-unsplash.jpg" height="300" width="450" alt="">
+                        <span class="description mt-5"><p>Margarita de la Vega</br><em>Bosque de Sangre, 2020</em></br><em>210 x 160 cm</em></p></span>
+                    </div>
+                    <div class="col-6 as">
+                        <img src="img/simon-berger-Qj0j1-yUhQk-unsplash.jpg" height="300" width="450" alt="">
+                        <span class="description mt-5"><p>Margarita de la Vega</br><em>Bosque de Sangre, 2020</em></br><em>210 x 160 cm</em></p></span>
+                    </div>
+                    <div class="col-6 as">
+                        <img src="img/isaac-quesada-4vMEIf0WzFw-unsplash.jpg" height="300" width="450" alt="">
+                        <span class="description mt-5"><p>Margarita de la Vega</br><em>Bosque de Sangre, 2020</em></br><em>210 x 160 cm</em></p></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-2 align-self-center as">
+                <button type="button" href="#" class="btn btn-sm btn-light btn-request"><h1>request info</h1></a>
             </div>
         </div>
     </div>
-    
+
+    <footer class="container mt-5 as">
+        <div class="row row-footer aling-items-end as">
+            <div class="col as">
+                <a class="btn" id="brandLogoFooter" type="button" href="index.html">EB</br>OG</a>
+            </div>
+            <div class="col as">
+                <p>Avenida de Daroca, 615</br>28032, Madrid.</br>info@galleryeboc.com</br>+34 91 200 60 58</p>
+            </div>
+            <div class="col as">
+                <a class="btn" href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
+                <a class="btn" href="http://facebook.com/"><i class="fa fa-facebook"></i></a>
+                <a class="btn" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
+                <a class="btn" href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
+            </div>
+            <div class="col as">
+                <button class="btn btn-light btn-request" type="button">suscribe to newsletter</button>
+            </div>
+        </div>
+    </footer>
 
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
-    <footer>
-        
-    </footer>
 </body>
 </html>

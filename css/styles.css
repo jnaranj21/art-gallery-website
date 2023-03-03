@@ -3,22 +3,25 @@ html, body {
     margin: 0;
 }
 
+p{
+    font-weight: light;
+}
+
 body{
     font-family: 'Roboto', sans-serif;
 }
 
 .row-menubar{
-    height: 17vh;
+    min-height: 17vh;
     background-image: linear-gradient(to right, white, #f5f5f5, white);
 }
 
 .row-exhibar{
-    height: 26vh;
+    min-height: 26vh;
 }
 
 .as{
-    /*border-bottom: solid black 1px;
-    border: dashed red 1px;*/
+    /*border: dashed red 1px;*/
 }
 
 .langMenu{
@@ -33,6 +36,12 @@ body{
 h1{
     font-size: 2em;
     letter-spacing: 0.01em;
+    font-weight: 300;
+}
+
+h2{
+    font-size: 1.5em;
+    letter-spacing: 0.02em;
     font-weight: 300;
 }
 
@@ -68,11 +77,25 @@ h1{
     letter-spacing: -0.125em;
 }
 
+#brandLogoFooter{
+    color: black;
+    font-size: 1.5em;
+    font-weight: lighter;
+    line-height: 60%;
+    letter-spacing: -0.125em;
+}
+
 .slogan{
     color: black;
     font-size: 1.3em;
     font-weight: lighter;
     letter-spacing: normal;
+}
+
+.description{
+    font-size: 1.1em;
+    font-weight: lighter;
+    letter-spacing: -.05em;
 }
 
 #infoExhib{
@@ -87,8 +110,28 @@ h1{
     list-style: none;
 }
 
-.socialFooter{
+.row-footer{
     height: 25vh;
     background-image: linear-gradient(to right, white, #f5f5f5, white);
-    margin-top: 2em;
+}
+
+.row-artistBio{
+    height: 50vh;
+}
+
+.artistImage{
+    background-image: url(img/loren-joseph-11eY-tkB9VU-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.row-artistSocial{
+    height: 10vh;
+    background-image: linear-gradient(to right, white, #f5f5f5, white);
+}
+
+.btn-request{
+    border: solid black 1px;
+    font-size: 0.7em;
 }

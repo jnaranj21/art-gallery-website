@@ -1,27 +1,35 @@
-html, body {
+html{
     height: 100%;
     margin: 0;
+    font-weight: 300;
 }
 
-p{
-    font-weight: light;
+.as{
+   /*border: dashed red 1px;*/
 }
 
 body{
+    min-height: 100%;
     font-family: 'Roboto', sans-serif;
+}
+
+.navbar-font{
+    font-weight: 300;
+    color: black;
+}
+
+p{
+    font-weight: 300;
 }
 
 .row-menubar{
     min-height: 17vh;
     background-image: linear-gradient(to right, white, #f5f5f5, white);
+    border-bottom: solid black 1px;
 }
 
-.row-exhibar{
-    min-height: 26vh;
-}
-
-.as{
-    /*border: dashed red 1px;*/
+.stickyInfo{
+    border-left: solid black 1px;
 }
 
 .langMenu{
@@ -65,8 +73,36 @@ h2{
 
 }
 
-#borderContainer{
-    border-bottom: solid rgb(222, 210, 210) 1px;
+.artistPortfolio{
+    border-right: solid white 3px;
+    background-image: linear-gradient(to left, #f8f9fa, white);
+}
+
+.buttonBorder{
+    background-color: #f8f9fa;
+}
+
+#angleRight{
+    font-size: 3em;
+    font-weight:300;
+}
+
+.row-breaker{
+    min-height: 8vh;
+    border-bottom: solid black 1px;
+}
+
+.row-bottom{
+    min-height: 25vh;
+    border-bottom: solid black 1px;
+}
+
+.col-customized{
+    padding: 0;
+}
+
+.col-customized, .special{
+    padding-right: 4px;
 }
 
 #brandLogo{
@@ -116,7 +152,7 @@ h2{
 }
 
 .row-artistBio{
-    height: 50vh;
+    min-height: 35vh;
 }
 
 .artistImage{
@@ -124,14 +160,20 @@ h2{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    min-height: 15em;
 }
 
 .row-artistSocial{
-    height: 10vh;
-    background-image: linear-gradient(to right, white, #f5f5f5, white);
+    min-height: 10vh;
 }
 
 .btn-request{
     border: solid black 1px;
-    font-size: 0.7em;
+    font-size: .9em;
+    font-weight: 300;
+}
+
+.btn-gototop{
+    font-size: .9em;
+    font-weight: 300;
 }
